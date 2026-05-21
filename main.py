@@ -15,8 +15,9 @@ knowledge_text = json.dumps(knowledge, indent=2)
 # ── 2. Config ──────────────────────────────────────────────────
 API_KEY    = os.getenv("GEMINI_API_KEY")
 MODEL      = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
-SKILL_PATH = Path.home() / ".config/opencode/skills/culturalbot/SKILL.md"
-SYSTEM_PROMPT  = SKILL_PATH.read_text().strip()
+# SKILL_PATH = Path.home() / ".config/opencode/skills/culturalbot/SKILL.md"
+SYSTEM_PROMPT = open("kofi_skill.md", "r", encoding="utf-8").read().strip()
+# SYSTEM_PROMPT  = SKILL_PATH.read_text().strip()
 SYSTEM_PROMPT += f"\n\n=== GHANA KNOWLEDGE BASE ===\n{knowledge_text}"
 SYSTEM_PROMPT += "\n\n=== FORMATTING RULE ===\nAlways write special characters and diacritics directly as real characters (e.g. ɛ, ɔ, ŋ) — never as Unicode escape codes like \\u025b or \\u0254."
 
