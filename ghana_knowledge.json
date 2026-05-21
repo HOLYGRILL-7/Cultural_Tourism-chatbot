@@ -1,0 +1,664 @@
+{
+  "_meta": {
+    "project": "Ghana Cultural Companion Chatbot",
+    "description": "Knowledge base covering Ghanaian festivals, tourist sites, languages, and ethnic groups",
+    "last_updated": "2026-05-16",
+    "sources": {
+      "festivals": [
+        "https://ghanaculture.gov.gh/festivals/ (National Commission on Culture)",
+        "https://visitghana.com/homowo-festival/",
+        "https://en.wikipedia.org/wiki/Homowo",
+        "https://samuelboadu.com/2026/02/19/10-popular-ghanaian-festivals-and-their-significance/",
+        "https://www.sheedatraveltribe.com/blogs/festivals-in-ghana",
+        "https://assendelft.co.za/posts/20-festivals-in-ghana-and-those-who-celebrate-it/"
+      ],
+      "tourist_sites": [
+        "https://tripzapp.com/travel-stories/cape-coast-elmina-castles-visitor-guide",
+        "https://elminacastle.info/",
+        "https://www.viator.com (Kakum National Park tour listings)",
+        "https://akwaaba.app/ghana-tribes-and-religions-cultural-guide/"
+      ],
+      "language_phrases": [
+        "https://www.nkenne.com/blog/basic-twi-greetings-and-self-introductions",
+        "https://eduspots.org/twi-a-beginners-guide/",
+        "https://www.dialogue-africa.com/learn-twi-greetings-ghana.html",
+        "https://old.rootedinrights.org/12-ghanaian-language-phrases-to-master-for-cultural-immersion-benefits",
+        "https://assendelft.co.za/posts/how-are-you-in-ghana-language/",
+        "https://mykingsgate.co.za/info/how-do-you-say-hello-in-ghana-africa-40651/"
+      ],
+      "ethnic_groups": [
+        "https://ghanacitizenship.com/ghana-ethnic-groups/",
+        "https://travelinafrica.co.za/diverse-heritage-exploring-the-ethnic-groups-of-ghana/",
+        "https://www.myjoyonline.com/ghana-month-ethnic-groups-in-ghana-and-their-distribution/",
+        "https://33travels.com/ghana-ethnic-groups/",
+        "https://akwaaba.app/ghana-tribes-and-religions-cultural-guide/"
+      ]
+    }
+  },
+
+  "festivals": [
+    {
+      "name": "Homowo",
+      "people": "Ga people",
+      "region": "Greater Accra",
+      "time_of_year": "August to September",
+      "meaning_of_name": "Hooting at hunger (Homo = hunger, wo = hoot)",
+      "description": "One of Ghana's most vibrant festivals, Homowo commemorates a severe famine the Ga people survived during their ancient migration. The word literally means 'to jeer at hunger'. Celebrated across the Ga State including Accra, Osu, La, Teshie, Tema, and Nungua — each area celebrates on slightly different dates so family members can attend multiple celebrations.",
+      "key_rituals": [
+        "Gbemlilaa (noise ban): Weeks before the festival, a ban on drumming and loud noise is imposed to allow quiet preparation and farming.",
+        "Kpashimo: The ceremonial sprinkling of kpokpoi (a traditional dish made from fermented corn and palm nut soup) at ancestral shrines and in public spaces by chiefs and elders.",
+        "Return of the drums: Once kpashimo is complete, drumming resumes, signalling the start of dancing and celebration."
+      ],
+      "traditional_food": "Kpokpoi — fermented corn meal cooked with palm nut soup, eaten specifically during Homowo",
+      "visitor_tips": [
+        "Dress modestly and respectfully.",
+        "Ask permission before photographing rituals.",
+        "The noise ban period (before the festival) is a deeply spiritual time — observe the calm.",
+        "Nungua traditionally celebrates first as one of the oldest Ga towns."
+      ],
+      "cultural_significance": "A celebration of resilience, community, and gratitude. The act of sprinkling food was historically a mockery of hunger — declaring that the community had survived and triumphed."
+    },
+    {
+      "name": "Odwira",
+      "people": "Akan people (especially Akuapem, Akwamu, Ashanti)",
+      "region": "Eastern Region (Akropong-Akuapim, Aburi, Larteh) and Ashanti Region",
+      "time_of_year": "September to October",
+      "meaning_of_name": "Purification / cleansing",
+      "description": "A week-long series of traditional rituals marking the end of the Akan calendar year and the start of a new one. It combines purification of the land and people, thanksgiving for the new yam harvest, and honouring of ancestors. The Akuapem Odwira is one of the most historic, first celebrated in 1826.",
+      "key_rituals": [
+        "Noise ban period at the start of the week.",
+        "Men from royal families clear paths to ancestral burial grounds to invite ancestors.",
+        "Procession of mashed yam from the chief's palace to feed ancestors at Nsorem.",
+        "Grand durbar of chiefs on the final day, featuring the Asona dance and elaborate regalia."
+      ],
+      "traditional_food": "Mashed yam — both plain and mixed with palm oil, specially prepared and carried to ancestor shrines",
+      "visitor_tips": [
+        "Kumasi's Manhyia Palace is a great base for Ashanti-region Odwira.",
+        "Dress in subdued or traditional colours — bright casual wear may seem disrespectful during solemn rites.",
+        "The durbar of chiefs is the most spectacular and most visitor-friendly part."
+      ],
+      "cultural_significance": "Deeply spiritual festival connecting the living to their ancestors. Reinforces loyalty to chiefs, respect for lineage, and community cohesion."
+    },
+    {
+      "name": "Aboakyir",
+      "people": "Effutu people of Winneba",
+      "region": "Central Region (Winneba)",
+      "time_of_year": "First Saturday of May",
+      "meaning_of_name": "Game catching / hunting for game",
+      "description": "A unique and exhilarating deer-hunting festival celebrated by the Effutu people of Winneba. Two Asafo warrior companies compete to capture a live bushbuck from a nearby game reserve. The captured deer is brought before the chief as a sacred offering.",
+      "key_rituals": [
+        "Pre-dawn competitive hunt between two Asafo companies.",
+        "Presentation of the captured bushbuck to the paramount chief.",
+        "Colorful processions, traditional drumming, and dancing."
+      ],
+      "visitor_tips": [
+        "Arrive early on the day — the hunt begins before sunrise.",
+        "Winneba is about 65km west of Accra, roughly an hour's drive.",
+        "The procession after the hunt is vibrant and very photogenic."
+      ],
+      "cultural_significance": "Honours the Effutu people's migration history, their covenant with their deity Penkye Otu, and the communal bonds formed through shared tradition."
+    },
+    {
+      "name": "Hogbetsotso",
+      "people": "Anlo Ewe people",
+      "region": "Volta Region (Anloga)",
+      "time_of_year": "First Saturday of November",
+      "meaning_of_name": "Festival of exodus / coming from Hogbe (Notsie)",
+      "description": "A festival commemorating the Anlo Ewe people's escape from oppression in Notsie (present-day Togo) and their migration to their current homeland. The name reflects their journey to freedom. It is a celebration of liberation, resilience, and unity.",
+      "key_rituals": [
+        "Durbar of Anlo chiefs in full traditional regalia.",
+        "Traditional music featuring Ewe drumming and the Agbadza dance.",
+        "Colorful display of kente weaving from the Volta Region."
+      ],
+      "visitor_tips": [
+        "Anloga is the traditional capital of the Anlo Ewe — the festival is richest here.",
+        "The Volta Region is also home to Wli Waterfalls and Lake Volta, making it a good multi-day trip."
+      ],
+      "cultural_significance": "Symbolizes freedom from oppression and the importance of unity. One of the most significant festivals for the Ewe people of Ghana and Togo."
+    },
+    {
+      "name": "Chale Wote Street Art Festival",
+      "people": "Open to all — multicultural urban arts event",
+      "region": "Greater Accra (Jamestown, Accra)",
+      "time_of_year": "August (typically mid-August)",
+      "meaning_of_name": "Chale Wote is Ga slang for 'friend, let's go'",
+      "description": "A free, contemporary street arts festival held in the historic Jamestown neighbourhood of Accra. Unlike traditional festivals, Chale Wote is a celebration of urban Ghanaian and African creativity — featuring murals, graffiti, live music, dance, spoken word, film, and fashion. It often coincides with Homowo celebrations in Accra.",
+      "key_activities": [
+        "Street murals and live painting by local and international artists.",
+        "Live music, dance performances, and spoken word.",
+        "Film screenings at Christianborg Castle.",
+        "Fashion shows and art fairs."
+      ],
+      "visitor_tips": [
+        "Entry to street events is free. Some castle exhibitions have a small fee.",
+        "Wear comfortable shoes — it is a walking festival through Jamestown's narrow streets.",
+        "Go early each day as crowds build quickly.",
+        "Jamestown is also home to the historic lighthouse and boxing gyms — worth exploring."
+      ],
+      "cultural_significance": "Bridges traditional Ghanaian culture with contemporary African urban expression. A platform for youth creativity and cultural exchange."
+    },
+    {
+      "name": "Bakatue",
+      "people": "People of Elmina",
+      "region": "Central Region (Elmina)",
+      "time_of_year": "First Tuesday of July",
+      "meaning_of_name": "Opening of the lagoon / process of discharge",
+      "description": "A festival marking the beginning of the fishing season in Elmina, one of Ghana's oldest towns. The Benya Lagoon ceremonially 'opens' to the sea, and the community gives thanks to the gods for a good fishing year ahead.",
+      "key_rituals": [
+        "Net-casting ceremony where the first catch is offered to the gods.",
+        "Durbar of chiefs accompanied by drumming and dancing.",
+        "Colorful display of canoes on the Benya Lagoon."
+      ],
+      "visitor_tips": [
+        "Combine with a visit to Elmina Castle, just minutes away.",
+        "The canoe parade on the lagoon is a beautiful sight and great for photography."
+      ],
+      "cultural_significance": "Deeply tied to the fishing heritage and spiritual beliefs of the Elmina people, honoring deities who protect the fishing community."
+    },
+    {
+      "name": "Damba",
+      "people": "Dagomba people",
+      "region": "Northern Region (Tamale, Yendi)",
+      "time_of_year": "Two months and ten days after Eid al-Fitr (Islamic calendar)",
+      "meaning_of_name": "Related to the Prophet Muhammad's birth",
+      "description": "A festival unique to northern Ghana that blends Islamic tradition with Dagomba royal culture. It marks the birth of the Prophet Muhammad but also honors the chiefs and rulers of Dagbon. Royal drummers recite genealogies — the drums literally speak history.",
+      "key_rituals": [
+        "Lunsi (royal drummers) recite the history and genealogy of the Dagbon kingdom.",
+        "Chiefs parade in full regalia on horseback.",
+        "Drumming, dancing, and communal feasting."
+      ],
+      "visitor_tips": [
+        "Dress modestly when visiting northern Ghana.",
+        "Friday prayer etiquette should be observed — avoid loud activity near mosques at prayer times.",
+        "Ask questions with humility and respect — hospitality in the north is generous."
+      ],
+      "cultural_significance": "Represents the fusion of Islam and traditional Dagomba culture, and demonstrates the role of oral tradition — through drums — in preserving northern Ghana's history."
+    },
+    {
+      "name": "Adae (Akwasidae)",
+      "people": "Asante people",
+      "region": "Ashanti Region (Kumasi — Manhyia Palace)",
+      "time_of_year": "Every six weeks according to the Akan calendar (a Sunday)",
+      "meaning_of_name": "A resting place / day of honouring the stool",
+      "description": "Held every six weeks (not once a year), Adae is a recurring royal ceremony where the Asantehene and sub-chiefs honor their ancestors and reaffirm loyalty to the sacred Golden Stool. It is living tradition — not a performance for tourists, but an active spiritual practice.",
+      "key_rituals": [
+        "Offerings and libations to ancestral stools.",
+        "Chiefs arrive in kente and palanquins.",
+        "Royal drummers and horn-blowers announce the Asantehene's presence.",
+        "Durbar at Manhyia Palace open to respectful visitors."
+      ],
+      "visitor_tips": [
+        "Dress respectfully — no shorts or casual wear at the palace.",
+        "Do not photograph without checking if it is permitted.",
+        "The Golden Stool is never sat upon — not even by the Asantehene. It is the soul of the Asante nation."
+      ],
+      "cultural_significance": "Reinforces the authority of the Asantehene, respect for lineage, and the sacred spiritual bond between the Asante people and their ancestors through the Golden Stool."
+    }
+  ],
+
+  "tourist_sites": [
+    {
+      "name": "Cape Coast Castle",
+      "region": "Central Region",
+      "location": "Cape Coast",
+      "type": "Historical / UNESCO World Heritage Site",
+      "description": "One of the most significant historical sites in Africa and a UNESCO World Heritage Site. Originally built by the Swedes in 1653 and later taken over by the British, it served as a major hub of the transatlantic slave trade. It also houses the West African Historical Museum, established in 1994 by the Smithsonian Institution and the Ghanaian government.",
+      "key_features": [
+        "Male and female dungeons where enslaved Africans were held before transportation.",
+        "The 'Door of No Return' — the last exit point for enslaved people being shipped to the Americas.",
+        "West African Historical Museum with detailed exhibits on the slave trade.",
+        "Panoramic views of the Atlantic from the castle ramparts."
+      ],
+      "visitor_tips": [
+        "Take the guided tour — guides are knowledgeable and the history is best understood with context.",
+        "This is an emotional visit. Allow yourself time to sit and reflect.",
+        "Go in the morning before it gets hot.",
+        "Combine with Elmina Castle (12km away) in the same day."
+      ],
+      "how_to_get_there": "About 3 hours from Accra by road (145km). STC and VIP buses run from Accra to Cape Coast. Self-drive is also straightforward.",
+      "best_time_to_visit": "Morning visits are cooler and less crowded",
+      "nearby_attractions": ["Elmina Castle", "Kakum National Park", "Cape Coast beaches"]
+    },
+    {
+      "name": "Elmina Castle",
+      "region": "Central Region",
+      "location": "Elmina",
+      "type": "Historical / UNESCO World Heritage Site",
+      "description": "The oldest European building in sub-Saharan Africa, built by the Portuguese in 1482 — originally as a gold trading post called 'São Jorge da Mina'. As the slave trade grew, it became one of the most significant slave-trading sites on the African coast. Control passed from Portugal to the Dutch (1637) and finally to the British (1872). Its Portuguese design creates a maze-like layout with multiple levels, courtyards, and passages.",
+      "key_features": [
+        "Male and female dungeons.",
+        "The 'Door of No Return' passage.",
+        "Views over the Elmina fishing village from the upper ramparts.",
+        "Fort St. Jago (Fort Conraadsburg) nearby on a hill, with views over the castle."
+      ],
+      "visitor_tips": [
+        "Upper Fort St. Jago may have restricted access — confirm on arrival.",
+        "The fishing village below the castle is vibrant and worth walking through.",
+        "The castle sits on a rocky promontory — the sea views are striking.",
+        "Allow at least 2 hours for the full tour."
+      ],
+      "how_to_get_there": "12km west of Cape Coast. Taxi or trotro from Cape Coast town.",
+      "best_time_to_visit": "Morning to early afternoon",
+      "nearby_attractions": ["Cape Coast Castle", "Bakatue Festival (July)", "Kakum National Park"]
+    },
+    {
+      "name": "Kakum National Park",
+      "region": "Central Region",
+      "location": "About 30km north of Cape Coast",
+      "type": "Nature / Ecotourism",
+      "description": "A lush tropical rainforest spanning approximately 357 square kilometres. Famous for its canopy walkway — one of the highest and longest in Africa — consisting of seven bridges suspended about 30 metres (100 feet) above the forest floor, stretching 330 metres in total.",
+      "key_features": [
+        "Canopy walkway with seven bridges at 30m above the forest floor.",
+        "Guided nature walks through biodiverse rainforest.",
+        "Rich wildlife including forest elephants, leopards, and over 400 bird species.",
+        "Visitor centre and interpretive exhibits on the forest ecosystem."
+      ],
+      "visitor_tips": [
+        "Book the canopy walk early — slots fill up, especially on weekends.",
+        "Wear comfortable, closed-toe shoes.",
+        "Early morning walks offer the best chance of wildlife sightings.",
+        "The walk can feel daunting for those afraid of heights — the bridges sway slightly."
+      ],
+      "how_to_get_there": "30km north of Cape Coast. Taxis and tour operators run regular trips from Cape Coast.",
+      "best_time_to_visit": "Early morning (7am–10am) for cooler temperatures and wildlife",
+      "nearby_attractions": ["Cape Coast Castle", "Elmina Castle"]
+    },
+    {
+      "name": "Manhyia Palace Museum",
+      "region": "Ashanti Region",
+      "location": "Kumasi",
+      "type": "Cultural / Historical",
+      "description": "The official palace of the Asantehene, the king of the Asante people. The original palace was built by the British in 1925 after they destroyed the original Asante palace. A new palace was built adjacent to it in 1974, and the original now operates as a museum documenting Asante history, including the wars against the British and the significance of the Golden Stool.",
+      "key_features": [
+        "Exhibits on the Asante Kingdom's history and wars with the British.",
+        "Display of royal regalia, weapons, and artifacts.",
+        "Information on the Golden Stool — the spiritual symbol of Asante unity.",
+        "The Adae (Akwasidae) ceremony held at the palace every six weeks."
+      ],
+      "visitor_tips": [
+        "Dress respectfully — this is an active royal palace.",
+        "Photography restrictions apply in certain areas.",
+        "If your visit coincides with an Akwasidae Sunday, you may witness the royal ceremony."
+      ],
+      "how_to_get_there": "In central Kumasi, easily reachable by taxi.",
+      "best_time_to_visit": "Any time; even better on an Akwasidae Sunday",
+      "nearby_attractions": ["Kejetia Market", "Lake Bosomtwe", "Bonwire Kente Weaving Village"]
+    },
+    {
+      "name": "Mole National Park",
+      "region": "Northern Region (Savannah Region)",
+      "location": "Damongo area, northwest Ghana",
+      "type": "Wildlife / Ecotourism",
+      "description": "Ghana's largest wildlife refuge, covering about 4,800 square kilometres of savannah. Home to elephants, hippos, buffalo, warthogs, baboons, crocodiles, and over 300 bird species. It is one of the best places in West Africa to see elephants in the wild, often on foot with a ranger.",
+      "key_features": [
+        "Walking safaris with armed rangers — elephants often spotted near the watering hole at the lodge.",
+        "Jeep safaris into the deeper park.",
+        "Larabanga Mosque nearby — one of the oldest mosques in West Africa (said to date to 1421).",
+        "Breathtaking savannah landscapes."
+      ],
+      "visitor_tips": [
+        "Stay at Mole Motel for the best wildlife viewing — the watering hole is right below the terrace.",
+        "Early morning (6am–8am) is the best time for elephant sightings.",
+        "Combine with a visit to Larabanga village and its ancient mosque.",
+        "The drive from Accra takes about 8–10 hours — consider flying to Tamale and driving from there (2 hours)."
+      ],
+      "how_to_get_there": "Fly Accra to Tamale, then drive ~2 hours west. Or take a direct bus (long journey).",
+      "best_time_to_visit": "November to April (dry season) for best wildlife viewing",
+      "nearby_attractions": ["Larabanga Mosque", "Wechiau Hippo Sanctuary", "Tamale city"]
+    },
+    {
+      "name": "Lake Bosomtwe",
+      "region": "Ashanti Region",
+      "location": "About 30km southeast of Kumasi",
+      "type": "Nature / Cultural",
+      "description": "Ghana's only natural lake, formed in a meteor crater over one million years ago. The lake is sacred to the Asante people — tradition holds that the souls of the dead come to the lake to bid farewell to the god Twi before moving on to the afterlife. The lake is surrounded by 30 villages and lush hills.",
+      "key_features": [
+        "Swimming, boating, and fishing in the crater lake.",
+        "Sacred spiritual significance to the Asante people.",
+        "Scenic crater rim views and hiking.",
+        "Surrounding villages maintaining traditional ways of life."
+      ],
+      "visitor_tips": [
+        "Traditional fishing boats are paddled with carved wooden planks, not paddles — an ancient tradition unique to Bosomtwe.",
+        "Visit the lakeshore villages respectfully.",
+        "Good budget guesthouses are available around the lake."
+      ],
+      "how_to_get_there": "About 30km from Kumasi by taxi or trotro via Kuntanase.",
+      "best_time_to_visit": "Year-round; dry season (November–April) for clearest skies",
+      "nearby_attractions": ["Manhyia Palace Museum", "Kejetia Market", "Bonwire Kente Village"]
+    },
+    {
+      "name": "Wli Waterfalls",
+      "region": "Volta Region",
+      "location": "Hohoe District, near the Togo border",
+      "type": "Nature",
+      "description": "The highest waterfall in West Africa, cascading about 80 metres down into a cool pool. Located within the Agumatsa Wildlife Sanctuary, the hike to the falls passes through forest filled with fruit bats, butterflies, and birds. There are lower and upper falls — the upper falls require a more challenging 3-hour hike.",
+      "key_features": [
+        "Lower falls: 45-minute hike through forest.",
+        "Upper falls: 3-hour hike for the more adventurous, with stunning views.",
+        "Large colony of straw-coloured fruit bats near the lower falls.",
+        "Cool natural pool for swimming at the base."
+      ],
+      "visitor_tips": [
+        "Hire a local guide from the visitor centre — they know the trails well and it supports the community.",
+        "Wear good walking shoes and bring water.",
+        "Swimming is allowed at the lower falls pool.",
+        "Combine with a visit to Mount Afadja (Ghana's highest peak, nearby)."
+      ],
+      "how_to_get_there": "Hohoe is about 4–5 hours from Accra. From Hohoe, Wli village is 18km by taxi.",
+      "best_time_to_visit": "Year-round; waterfalls are most impressive in rainy season (June–October)",
+      "nearby_attractions": ["Mount Afadja", "Lake Volta", "Hohoe town"]
+    },
+    {
+      "name": "Paga Crocodile Pond",
+      "region": "Upper East Region",
+      "location": "Paga, near the Burkina Faso border",
+      "type": "Cultural / Nature",
+      "description": "A sacred pond in the town of Paga where wild crocodiles live in peace alongside the local community. Local belief holds that the crocodiles are reincarnations of community ancestors — harming them is taboo. Visitors can sit beside, touch, and be photographed with the crocodiles safely, guided by local handlers.",
+      "key_features": [
+        "Sacred wild crocodiles that are non-aggressive toward humans.",
+        "Guides lure crocodiles with live chickens for visitors to approach safely.",
+        "The Chief's Palace nearby is worth a visit.",
+        "The town sits right on the border with Burkina Faso."
+      ],
+      "visitor_tips": [
+        "Follow all guide instructions carefully.",
+        "A small fee is paid for the chicken offering.",
+        "Combine with Bolgatanga, known for its colourful woven baskets and leather crafts."
+      ],
+      "how_to_get_there": "Bolgatanga is the regional capital (16km south of Paga). Flights from Accra to Tamale, then bus to Bolgatanga.",
+      "best_time_to_visit": "Dry season (November–April)",
+      "nearby_attractions": ["Bolgatanga craft market", "Navrongo Cathedral", "Tongo Hills"]
+    }
+  ],
+
+  "language_phrases": {
+    "cultural_note": "Greetings are extremely important in Ghanaian culture. Walking past someone without greeting is considered rude. Greet elders first, use your right hand for handshakes, and take your time — rushed greetings feel disrespectful.",
+    "twi": {
+      "language_info": "Twi (a dialect of Akan) is the most widely spoken language in Ghana. It has two main dialects: Asante Twi (Kumasi and Ashanti Region) and Akuapem Twi (Eastern Region). Understanding Twi helps you communicate across much of southern Ghana.",
+      "phrases": [
+        {
+          "phrase": "Akwaaba",
+          "meaning": "Welcome",
+          "pronunciation": "Ah-kwah-bah",
+          "usage": "Used to welcome someone warmly. A core expression of Ghanaian hospitality."
+        },
+        {
+          "phrase": "Mema wo akye",
+          "short_form": "Maakye",
+          "meaning": "Good morning",
+          "pronunciation": "Mah-ah-cheh",
+          "usage": "Morning greeting"
+        },
+        {
+          "phrase": "Mema wo aha",
+          "short_form": "Maaha",
+          "meaning": "Good afternoon",
+          "pronunciation": "Mah-ah-ha",
+          "usage": "Afternoon greeting"
+        },
+        {
+          "phrase": "Mema wo adwo",
+          "short_form": "Maadwo",
+          "meaning": "Good evening",
+          "pronunciation": "Mah-ah-jo",
+          "usage": "Evening greeting"
+        },
+        {
+          "phrase": "Wo ho te sɛn?",
+          "meaning": "How are you? (literally: how is your body?)",
+          "pronunciation": "Wo-ho-teh-sen",
+          "response": "Me ho yɛ (I am fine) — or: Nyame adom, me ho yɛ (By God's grace, I am fine)"
+        },
+        {
+          "phrase": "Medaase",
+          "meaning": "Thank you",
+          "pronunciation": "Meh-dah-seh",
+          "usage": "Standard thank you. Medaase paa = thank you very much"
+        },
+        {
+          "phrase": "Mepawokyew",
+          "meaning": "Please / Excuse me",
+          "pronunciation": "Meh-pah-wo-chew",
+          "usage": "Used when making a request or getting someone's attention politely"
+        },
+        {
+          "phrase": "Yaa nua",
+          "meaning": "Response to a greeting (between peers)",
+          "pronunciation": "Yah-noo-ah",
+          "usage": "Reply to a peer's greeting. Use 'Yaa agya' for an elder man, 'Yaa ena' for an elder woman."
+        },
+        {
+          "phrase": "Me din de ...",
+          "meaning": "My name is ...",
+          "pronunciation": "Meh-din-deh",
+          "usage": "Self-introduction. E.g. Me din de Kofi = My name is Kofi"
+        },
+        {
+          "phrase": "Wo firi he?",
+          "meaning": "Where are you from?",
+          "pronunciation": "Wo-fee-rih-heh",
+          "usage": "Common conversational question"
+        },
+        {
+          "phrase": "Dabi",
+          "meaning": "No",
+          "pronunciation": "Dah-bih"
+        },
+        {
+          "phrase": "Aane",
+          "meaning": "Yes",
+          "pronunciation": "Ah-neh"
+        }
+      ]
+    },
+    "ga": {
+      "language_info": "Ga is spoken primarily in the Greater Accra Region, particularly in Accra, Tema, Nungua, Teshie, and La. The Ga people are deeply connected to the sea and have a distinct cultural identity within Ghana.",
+      "phrases": [
+        {
+          "phrase": "Ojekoo",
+          "meaning": "Good morning",
+          "pronunciation": "Oh-jeh-koh",
+          "usage": "Morning greeting in Ga"
+        },
+        {
+          "phrase": "Ogboo",
+          "meaning": "Good afternoon",
+          "pronunciation": "Og-boh",
+          "usage": "Afternoon greeting"
+        },
+        {
+          "phrase": "Ojeogboo",
+          "meaning": "Good evening",
+          "pronunciation": "Oh-jeh-og-boh",
+          "usage": "Evening greeting"
+        },
+        {
+          "phrase": "Afi ojekoo",
+          "meaning": "Welcome (to someone arriving in the morning)",
+          "pronunciation": "Ah-fee-oh-jeh-koh",
+          "usage": "Welcoming a visitor"
+        },
+        {
+          "phrase": "Oyiwaladon",
+          "meaning": "Thank you",
+          "pronunciation": "Oh-yee-wah-lah-don",
+          "usage": "Standard expression of gratitude in Ga"
+        },
+        {
+          "phrase": "Ote sen?",
+          "meaning": "How are you?",
+          "pronunciation": "Oh-teh-sen",
+          "usage": "Casual greeting asking about well-being"
+        },
+        {
+          "phrase": "Mi shi kɛ",
+          "meaning": "I am fine / I am well",
+          "pronunciation": "Mee-shee-keh",
+          "usage": "Response to 'how are you'"
+        }
+      ]
+    },
+    "ewe": {
+      "language_info": "Ewe is spoken mainly in the Volta Region of Ghana, and also in parts of Togo and Benin. The Ewe are known for intricate kente weaving (Volta-style), complex percussion music, and vibrant festivals like Hogbetsotso.",
+      "phrases": [
+        {
+          "phrase": "Míegbé",
+          "meaning": "Hello / Good morning",
+          "pronunciation": "Mee-eh-gbeh",
+          "usage": "Common casual greeting"
+        },
+        {
+          "phrase": "Míelegbé",
+          "meaning": "Good morning / Good afternoon / Good evening (more formal)",
+          "pronunciation": "Mee-eh-leh-gbeh",
+          "usage": "Used in formal settings or with elders"
+        },
+        {
+          "phrase": "Néwoe?",
+          "meaning": "How are you?",
+          "pronunciation": "Neh-woh-eh",
+          "usage": "Asking after someone's well-being"
+        },
+        {
+          "phrase": "Hede nyuie",
+          "meaning": "I am fine / It is well",
+          "pronunciation": "Heh-deh-nyoo-ee-eh",
+          "usage": "Response to 'how are you'"
+        },
+        {
+          "phrase": "Akpe",
+          "meaning": "Thank you",
+          "pronunciation": "Ah-kpeh",
+          "usage": "Standard thank you in Ewe. Akpe kakaka = thank you very much"
+        },
+        {
+          "phrase": "Woezo",
+          "meaning": "Welcome",
+          "pronunciation": "Woh-eh-zoh",
+          "usage": "Greeting used to welcome a visitor or guest"
+        },
+        {
+          "phrase": "Ao",
+          "meaning": "Yes",
+          "pronunciation": "Ah-oh"
+        },
+        {
+          "phrase": "Ao nyeee",
+          "meaning": "No",
+          "pronunciation": "Ah-oh-nyeh-eh"
+        }
+      ]
+    }
+  },
+
+  "ethnic_groups": [
+    {
+      "name": "Akan",
+      "subgroups": ["Ashanti", "Fante", "Akuapem", "Akyem", "Bono (Brong)", "Kwahu", "Akwamu"],
+      "population_share": "Approximately 47–48% of Ghana's population",
+      "regions": ["Ashanti", "Eastern", "Central", "Western", "Bono"],
+      "language": "Twi (Asante Twi, Akuapem Twi) and Fante",
+      "inheritance_system": "Matrilineal — descent and property pass through the mother's line",
+      "religion": "Predominantly Christian (Protestant, Catholic, Pentecostal), with traditional beliefs in ancestors and deities maintained alongside Christianity",
+      "known_for": [
+        "Kente cloth — narrow strips of hand-woven silk and cotton, woven exclusively by men outdoors",
+        "Adinkra symbols — printed on cloth and carved into objects, each symbol carries a philosophical meaning",
+        "The Golden Stool (Sika Dwa Kofi) — sacred symbol of the Asante nation's soul and unity",
+        "Gold and cocoa farming heritage",
+        "Highlife music — a genre rooted in Akan rhythms"
+      ],
+      "key_festivals": ["Adae (Akwasidae)", "Odwira", "Aboakyir (Fante)", "Bakatue (Fante/Elmina)"],
+      "visitor_insight": "The Ashanti Kingdom in Kumasi is one of the most structured traditional authorities in West Africa. The Asantehene (king) still holds significant cultural authority. Visiting Manhyia Palace or attending Akwasidae is a window into living history."
+    },
+    {
+      "name": "Ewe",
+      "subgroups": ["Anlo Ewe", "Tongu Ewe", "Ho Ewe"],
+      "population_share": "Approximately 13% of Ghana's population",
+      "regions": ["Volta Region", "Oti Region"],
+      "language": "Ewe",
+      "inheritance_system": "Patrilineal — descent passes through the father's line",
+      "religion": "Mix of Christianity, traditional religion (Vodou/Voodoo has Ewe origins), and Islam",
+      "known_for": [
+        "Complex percussion drumming — the Ewe drum tradition is internationally studied",
+        "Agbadza dance — a vibrant traditional dance performed at festivals and celebrations",
+        "Kente weaving — distinct from Asante kente, Volta-style kente has different patterns and colors",
+        "Strong cross-border identity with Ewe communities in Togo and Benin"
+      ],
+      "key_festivals": ["Hogbetsotso", "Ngmayem (harvest festival)"],
+      "visitor_insight": "The Volta Region is one of Ghana's most scenic — rolling hills, the Wli Waterfalls, Lake Volta, and Mount Afadja. Ewe communities are welcoming to visitors who show genuine interest in their culture and music."
+    },
+    {
+      "name": "Ga-Adangbe",
+      "subgroups": ["Ga", "Adangbe / Dangme"],
+      "population_share": "Approximately 8% of Ghana's population",
+      "regions": ["Greater Accra Region"],
+      "language": "Ga (spoken mainly in Accra and surroundings); Dangme (spoken east of Accra)",
+      "inheritance_system": "Patrilineal",
+      "religion": "Mix of Christianity and traditional belief; traditional priests (Wulomo) still hold cultural authority",
+      "known_for": [
+        "Homowo Festival — one of Ghana's most famous festivals",
+        "Deep connection to the sea and fishing traditions",
+        "Elaborate funeral customs — fantasy coffins (shaped like cars, fish, planes) are a unique Ga funeral tradition",
+        "Jamestown — the historic heart of Accra, home to the Ga Mantse (king)"
+      ],
+      "key_festivals": ["Homowo", "Asafotufiam (Ada)", "Ngmayem"],
+      "visitor_insight": "Jamestown in Accra is the cultural heartland of the Ga people — home to the lighthouse, traditional boxing gyms, Chale Wote festival, and the fishing harbour. It is one of Accra's most historically rich neighbourhoods."
+    },
+    {
+      "name": "Mole-Dagbani (Dagomba)",
+      "subgroups": ["Dagomba", "Mamprusi", "Nanumba"],
+      "population_share": "Approximately 18.5% of Ghana's population",
+      "regions": ["Northern Region", "North East Region", "Savannah Region"],
+      "language": "Dagbani (and related Mole-Dagbani languages)",
+      "inheritance_system": "Patrilineal",
+      "religion": "Predominantly Muslim (Islam has been present since the 17th century), with traditional ancestor and earth deity practices maintained",
+      "known_for": [
+        "Lunsi (royal drummers) — drummers who recite and preserve the oral history and genealogy of the Dagbon kingdom",
+        "Damba Festival — combining Islamic tradition with Dagomba royal culture",
+        "Fugu cloth — the distinctive smock worn in northern Ghana",
+        "Leather crafts and drum-making",
+        "Larabanga Mosque — one of the oldest mosques in West Africa, located near Mole National Park"
+      ],
+      "key_festivals": ["Damba", "Bugum (Fire Festival)"],
+      "visitor_insight": "Northern Ghana is a completely different cultural world from the south. The landscape is savannah, the architecture is different, and Islam shapes daily rhythms. Visitors should dress modestly, observe prayer times, and approach with curiosity and humility. The hospitality of northern Ghanaian communities is legendary."
+    },
+    {
+      "name": "Fante",
+      "subgroups": ["Part of the broader Akan group"],
+      "population_share": "Included in Akan percentage",
+      "regions": ["Central Region", "Western Region"],
+      "language": "Fante (a dialect of Akan, mutually intelligible with Twi)",
+      "inheritance_system": "Matrilineal",
+      "religion": "Predominantly Christian",
+      "known_for": [
+        "Maritime and fishing heritage — Fante coastal communities have been expert seafarers for centuries",
+        "Asafo companies — traditional warrior groups that still hold cultural and social identity in Fante towns",
+        "Early interactions with European traders, particularly in Cape Coast and Elmina",
+        "Fante Confederacy — an early form of political alliance formed to resist Asante expansion"
+      ],
+      "key_festivals": ["Aboakyir (Winneba)", "Bakatue (Elmina)", "Fetu Afahye (Cape Coast)"],
+      "visitor_insight": "Cape Coast and Elmina are the heartland of Fante culture. The fishing harbours are alive before dawn, the castles carry centuries of history, and the Asafo company shrines (posuban) are unique public art scattered throughout coastal towns."
+    }
+  ],
+
+  "cultural_etiquette": {
+    "general_dos": [
+      "Greet people warmly — always greet before asking anything.",
+      "Use your right hand for handshakes, passing items, and eating.",
+      "Remove shoes when entering someone's home (if others have).",
+      "Show respect for elders — let them speak first and address them with titles.",
+      "Ask permission before photographing people, especially at ceremonies.",
+      "Accept food or drink when offered — refusing can seem rude."
+    ],
+    "general_donts": [
+      "Do not point with one finger — use an open hand.",
+      "Do not eat with your left hand.",
+      "Do not show the soles of your feet to others.",
+      "Do not walk past a group without greeting them.",
+      "Do not photograph military installations or airports.",
+      "Do not visit a chief or elder without arranging it through the appropriate channels."
+    ],
+    "dress_code": "Dress modestly, particularly in northern Ghana and at cultural ceremonies. Lightweight, breathable fabrics are recommended due to the warm climate. For festivals, wearing Ghanaian traditional cloth is appreciated and welcomed."
+  }
+}
